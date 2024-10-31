@@ -1,0 +1,132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: salessuckers 1.0.8\n"
+"POT-Creation-Date: 2022-03-24 08:25+0100\n"
+"PO-Revision-Date: 2022-03-24 07:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Description of the plugin
+msgid "Connector between Sales-Suckers and Wordpress, to easily integrate the tracking code"
+msgstr ""
+
+#: admin/class-salessuckers-admin.php:138
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:54
+msgid "Tracking is active"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:58
+msgid "Tracking is inactive"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:66
+msgid "Please login with your Sales-Suckers user, to include the code"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:85
+msgid "Login failed, wrong username or password"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:88
+msgid "Login successfull"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:91
+msgid "Login to Sales-Suckers"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:92
+msgid ""
+"Please login with your Sales-Suckers credentials to get the code for this "
+"website. Your credentials will not be saved, or used on other places in the "
+"application!"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:95
+msgid "Username"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:97
+msgid "your@email.com"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:101
+msgid "Password"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:103
+msgid "your password"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:107
+msgid "Login"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:113
+msgid "Failed to select the domain, please try again"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:118
+msgid "Please select your current domain"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:123
+msgid ""
+"Should this domain be used for tracking? Or choose the correct from above."
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:125
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:135
+msgid "Active"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:139
+msgid "Active Tracking"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:141
+msgid "If the Tracking should be active on your website"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:145
+msgid "Include in Footer"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:149
+msgid ""
+"Should the Tracking code be in the footer, otherwise it will be placed in "
+"the header"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:151
+msgid "When included in the footer, the performance is better"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:169
+msgid "Cancel"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:170
+msgid "Reload the code"
+msgstr ""
+
+#: admin/partials/salessuckers-admin-display.php:173
+msgid "Save all changes"
+msgstr ""

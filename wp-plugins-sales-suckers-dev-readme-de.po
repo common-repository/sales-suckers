@@ -1,0 +1,181 @@
+# Translation of Plugins - Sales-Suckers Connector - Development Readme (trunk) in German
+# This file is distributed under the same license as the Plugins - Sales-Suckers Connector - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Sales-Suckers Connector - Development Readme (trunk)\n"
+
+#. Found in changelog list item.
+msgid "Fix login in firefox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Created plugin in english and german"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Click \"Save all changes\" to update the configuration."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To control, whether the tracking code should be included in the footer <code>wp_footer</code> leave the checkbox \"Include in Footer\" checked. To Include the tracking code in the header <code>wp_head</code> uncheck the checkbox."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can disable tracking globally by disabling the checkbox for \"Active\""
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If the selected website is correct, click on the button \"Yes\" to activate the tracking for the domain."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "After you successfully logged in, the plugin will show you your available websites from Sales-Suckers, or simple selects the domain that matches the current url. Click on the website that is site of your current wordpress page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Login in with your Sales-Suckers login credentials, by entering the email and password and clicking on \"Login\". For security reasons, your credentials will  not be saved and used in other places of the application."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Switch to the Sales-Suckers Plugin through (<code>Settings - Sales-Suckers</code> or <code>Plugins - Installed Plugins - Settings</code>)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Now go to the <a href=\"#configure\">configuration section</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "An API documentation is online available through https://app.sales-suckers.com/swagger"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Code</strong>\n"
+"GET: <code>/Code/{customerId}/{domainId}</code>\n"
+"Returns the code object for the selected domain.\n"
+"This methods needs an authorizations header to be attached\n"
+"    Authorization: Bearer {token}"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>User</strong>\n"
+"GET: <code>/User/{userId}/domains</code>\n"
+"Returns the available domains for the logged in user.\n"
+"This methods needs an authorizations header to be attached\n"
+"    Authorization: Bearer {token}"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Login</strong>\n"
+"POST: <code>/Login/do</code>\n"
+"Logs the user in and returns the token and basic infos about the user.\n"
+"the username and password will be used from the input fields in the admin view of the plugin, no data from your WordPress will be used.\n"
+"The following data will send in the body\n"
+"    <code>json\n"
+"{\n"
+"  \"username\": \"string\",\n"
+"  \"password\": \"string\",\n"
+"  \"rememberMe\": true\n"
+"}</code>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The following Methods will be used from the API:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin uses the extrenal API from Sales-Suckers to verify the user, to load his available domains and to get the personalized tracking code."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To use this plugin you must have an Sales-Suckers account, otherwise nothing will be included."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin allows the easy integration of the <a href=\"https://www.sales-suckers.com\">Sales-Suckers</a> tracking code. The tracking code can be placed in the head of in the footer. That's handy if one of them is not available in your theme and to have total control where the code will be placed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Click on the button \"Settings\" to configure the plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "In the list of your plugins, you will find the new plugin \"Sales-Suckers Connector\", click on the link \"Activate\", "
+msgstr ""
+
+#. Found in description list item.
+msgid "Go to your plugins section in the wordpress admin area (<code>Plugins - Installed Plugins</code>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Copy the folder \"salessuckers\" in your wordpress folder <code>/wp-content/plugins/</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "To install the plugin, download the zip file and extract it, you will find a folder with the name \"salessuckers\""
+msgstr ""
+
+#. Found in description list item.
+msgid "In the list of your plugins, you will find the new plugin \"Sales-Suckers Connector\", click on the link \"Settings\", to configure the plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "When the plugin is installed successfully, click the button \"Activate Plugin\", to active your new plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose the plugin zip file from your computer and click \"Install Now\""
+msgstr ""
+
+#. Found in description list item.
+msgid "Click on the button \"Upload Plugin\""
+msgstr ""
+
+#. Found in description list item.
+msgid "Go to your plugins section in the wordpress admin area (<code>Plugins - Add new</code>), to add a new plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "To install the plugin, download the zip file"
+msgstr ""
+
+#. Found in description header.
+msgid "Settings"
+msgstr ""
+
+#. Found in description header.
+msgid "First Steps and Reload code"
+msgstr ""
+
+#. Found in description header.
+msgid "<a></a> Configure plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "Install plugin manually"
+msgstr ""
+
+#. Found in description header.
+msgid "Install plugin as zip"
+msgstr ""
+
+#. Found in description header.
+msgid "External API"
+msgstr ""
+
+#. Short description.
+msgid "Connector between Sales-Suckers and Wordpress, to easily integrate the tracking code"
+msgstr ""
+
+#. Plugin name.
+msgid "Sales-Suckers Connector"
+msgstr ""
